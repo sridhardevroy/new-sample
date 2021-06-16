@@ -1,0 +1,12 @@
+type "name" do
+action :type
+atrr = values
+end
+-------------------
+file "/opt/batch67-chef" do
+action :create
+end
+
+directory "/opt/chef1" do
+action :create
+end
